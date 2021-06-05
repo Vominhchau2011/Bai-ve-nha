@@ -1,0 +1,51 @@
+body{
+    margin: auto;
+    background-image: url("b2.jpg");
+    background-size: cover;
+}
+#logout{
+    display: none;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 100px;
+}
+.Signin{
+    display: block;
+    margin: auto;
+    width: 400px;
+    color: white;
+    padding-top: 200px;
+}
+h1{
+    text-align: center;
+}
+.col4{
+    padding-top: 20px;
+}
+.button_login{
+    text-align: center;
+}
+.button_login button {
+   margin: 30px 50px;
+}
+.Register{
+    display: none;
+    margin: auto;
+    width: 400px;
+    color: white;
+    padding-top: 200px;
+}
+.button_register{
+    text-align: center;
+}
+.button_register button {
+    margin: 30px 50px;
+}
+span{
+    color: red;
+}
+
+
+
+

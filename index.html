@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+<div id="logout" class="Home ">
+    <div>
+        <h1>CHÀO MỪNG BẠN ĐẾN VỚI VIET69.US</h1><br>
+        <button class="btn btn-secondary" id="btn_logout" type="button">Log out</button>
+    </div>
+</div>
+<div id="sign_in" class="Signin">
+    <form action="">
+        <h1>Login</h1>
+        <div class="col4">
+            <label class="form-label" >User name</label>
+            <input type="email" class="form-control" id="username_signin" placeholder="name@example.com"  required>
+            <span id="err_email_sign_in"></span>
+        </div>
+        <div class="col4">
+            <label class="form-label" >Password</label>
+            <input type="password" class="form-control" id="password_signin" placeholder="Enter password"  required>
+            <span id="err_pass_signin"></span>
+        </div>
+        <div class="button_login">
+            <button class="btn btn-secondary" type="button" id="btn_login">Sign in</button>
+            <button class="btn btn-secondary" type="button" id="btn_register"> Register</button>
+        </div>
+    </form>
+</div>
+<div id="register" class="Register ">
+    <form action="">
+        <h1>Register</h1>
+        <div class="col4">
+            <label class="form-label" for="username">User name</label>
+            <input type="text" class="form-control" id="username" placeholder="name@example.com"  required>
+            <span id="err_email_register"></span>
+        </div>
+        <div class="col4">
+            <label class="form-label" for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter password" required>
+            <span id="err_pass_register"></span>
+        </div>
+        <div class="col4">
+            <label class="form-label" for="re-password">Re-password</label>
+            <input type="password" class="form-control" id="re-password" placeholder="Enter re-password" required>
+            <span id="err_repass_register"></span>
+        </div>
+        <div class="button_register">
+            <button type="button" class="btn btn-secondary" id="btn_ok"> OK</button>
+            <button class="btn btn-secondary" id="btn_back"> Back</button>
+        </div>
+    </form>
+</div>
+</div>
+</body>
+</html>
